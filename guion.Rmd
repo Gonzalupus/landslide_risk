@@ -1,0 +1,114 @@
+---
+title: "guion"
+output: pdf_document
+---
+
+2 .
+
+* Landslides are the process of mass movement downslope. They are associated with strong rain events, soil.... 
+
+* Because climate change may influence intensity or length of rain events, researchers have highlighted the potential change in landslides frequency.
+
+* Moreover, political ecologist have stressed the need to recognize the link between human activities and processes in the distribution of risk towards landslides.
+
+\vspace{12pt}
+
+3. For these reasons, in this project I decided like to test...
+
+\vspace{12pt}
+
+4. NEXT
+
+\vspace{12pt}
+
+5. To achieve this, I decided to make a spatial regression between a set of indexes that measure vulnerability to landslides and a set of variables related with landscape transformation.
+
+  + For the study site I selected the state of Puebla in Mexico, due to its cultural and agroecological diversity, urban and rural              environments, and its altitudinal variation. 
+
+\vspace{12pt}
+
+6. The data used was obtained from... After data manipulation I had an N= 121 municipalities.
+
+
+\vspace{12pt}
+
+7. The vulnerability index is a continuous variable from 0 to 1.5 that integrates the:
+
+  * exposition: precipitation and probability of landslides
+
+  * sensibility: susceptible population and vegetation status
+
+  * adaptive capacity: administrative tools to respond and prevent landslides
+
+  * The index is also divided according to these climate change scenarios which consider the worst scenario ('business as usual') and a temporal horizon from 2015 to 2039.
+
+\vspace{12pt}
+
+8. I used qqplots to qualitative assess the normality of these response variables.
+
+\vspace{12pt}
+
+9.The covariates of the regression were:
+
+  * The area of agricultural, livestock, or forestry.
+  * Area of rainfed plots
+  * Productive units dedicated to industry
+  * Area of privately owned lands
+
+  **All the variables were standardized by calculating the percentage respective to total area or productive units.**
+
+\vspace{12pt}
+
+10. Before adjusting the spatial reggresion I calculated the queen contiguities using the spdep R package. With these I calculated the Moran scatter plots. These plots suggest spatial autocorrelation, therefore justifying the use of a spatial lag model to consider the spatial component.
+
+\vspace{12pt}
+
+11. However, I used the moran.mc function to formally test the Moran's I value thougth Monte-Carlo permutations.
+
+\vspace{12pt}
+
+12. Once I checked these assumptions I adjusted the spatial lag model where the degree of vulnerbaility is a function of .... Please note the inclusion of the spatial weights in the model.
+
+  This general model was adjusted for each climate change scenario and then it was simplified removing the least significan terms and then comparing the models by the AICs. Please see this example.
+
+\vspace{12pt}
+
+13. NEXT
+
+\vspace{12pt}
+
+14. This table shows the results from the selected spatial lag models from each climate change scenario. The significant terms are highlighted in yellow. 
+
+  * These models suggest that industrial activity within a municipality is associated with a decrease of vulnerability, while the amount of private lands, and rainfed lands are related with and increase in vulnerability. However, the magnitude of these effects is small; suggesting a mild relation of these factors with the degree of vulnerability.
+
+  * As you can see the spatial component (Rho) is not significant, suggesting that being close to other vulnerable municipalities do not increase the vulnerability experienced within the focal municipality.
+
+  * Finally, the similitude between these results isx explained by the resemblance of the distribution of indexes (as you may recall the boxplots). Equally, this is explained by the fact that I used the same set of covariates from 2007.
+
+
+\vspace{12pt}
+
+15. These maps show the predicted values from the models. And, not surprisingly, they are very similar.  Unfortunately, most municipalities show from mid to high vulnerability values. 
+
+\vspace{12pt}
+
+16. This table and map show the most vulnerable municipalities.
+
+\vspace{12pt}
+
+17. So, in light of these results we can conclude that...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

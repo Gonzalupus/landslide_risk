@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>landslide risk in multiple climate change scenarios</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Gonzalo Martínez Herrera" />
+    <script src="libs/header-attrs-2.6/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rutgers.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra_fit-screen-0.2.4/fit-screen.js"></script>
+    <link href="libs/tile-view-0.2.4/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view-0.2.4/tile-view.js"></script>
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
+    <link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+
+image-background: url(src="https://dlpoder.com/wp-content/uploads/2019/04/WhatsApp-Image-2019-04-18-at-00.37.24.jpeg")
+image-position: 5%
+class: middle, center
+
+
+
+# Landslide risk in multiple climate change scenarios
+
+### Gonzalo Martínez Herrera
+
+
+&lt;img src="gc_logo.png" width=45% style="float:left; margin: -400px 500px 0px 0px"/&gt;
+
+---
+layout: true
+background-image: url("concrete-crack-repair.jpg") 
+background-position: -25%
+
+---
+## Introduction
+
+.pull-left[
+
+* Factors associated: 
+  + Precipitation
+  + Soil conditions
+  + Slope
+  + Land-use
+
+* Interaction with climate change effects &lt;sup&gt;[1,2]&lt;/sup&gt;
+
+* Natural hazards? Socio-natural construction of risk&lt;sup&gt;[3]&lt;/sup&gt;
+]
+
+.pull-right[
+
+&lt;img src="https://www.diariocambio.com.mx/2020/media/k2/items/cache/f43a16a693f0bdcd1588b31f4d500280_L.jpg?t=20200907_160218" width=100% /&gt;
+
+&lt;img src="https://pueblaonline.com.mx/2019/portal/media/k2/galleries_p/102735/deslaves-periferico-ecologico-437397.jpg" /&gt;
+
+]
+
+---
+## Hypotesis
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+### 1. Landslide vulnerability is associated with productive activities.
+    
+&lt;br&gt;
+    
+###2. Climate change enhances vulnerability to landslides
+
+???
+
+1. Under the assumptions that productive activities modify the landscape in ways
+that may increase the chance of a landslide the first...
+
+2. As mentioned earlier, climate change influences precipitation temporal distribution
+and intensity. Therefore, 
+
+---
+layout:false
+class: inverse, middle, center
+
+# Methods
+
+
+
+---
+layout: true
+background-image: url("concrete-crack-repair.jpg") 
+background-position: -25%
+
+
+
+---
+
+### Study site
+
+.pull-left[
+
+* Culturally and agroecologically diverse &lt;sup&gt;[4]&lt;/sup&gt;.
+
+* Cities and rural landscapes.
+
+* Altitudinal variation.
+
+&lt;img src="sg.JPG" style="float:left; margin: 60px 500px 0px 0px"/&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="m_mex.png" style="float:left; margin: -70px 0px 0px 0px"/&gt;
+
+
+&lt;img src="m_pue.png" width=75% style="float:left; margin: 40px 0px 0px 50px"/&gt;
+
+]
+
+
+---
+### Data collection
+
+&lt;br&gt;
+
+**INECC** - National Institute of Ecology and Climate Change
+  
+  + indexes of vulnerability to landslide risk (2019) &lt;sup&gt;[5]&lt;/sup&gt;
+
+
+&lt;br&gt;
+
+**INEGI** - National Institute of Statistics and Geography
+
+  + Agricultural census (2007) &lt;sup&gt;[6]&lt;/sup&gt; : 
+      - Municipality scale  
+    
+  + Spatial data &lt;sup&gt;[7]&lt;/sup&gt;:     
+      - Shapefiles of municipalities and states
+
+
+After data manipulation n = 121 municipalities.
+---
+
+### Vulnerability indexes
+
+
+.pull-left[
+
+
+.RUred[Dimensions]:
+
+* Exposition 
+
+* Sensibility
+
+* Adaptive capacity
+
+.RUred[Models (RCP 8.5; 2015 - 2039)]: 
+
+- Actual conditions (1950 - 2000)
+    
+- CNRMC-M5 
+    
+- GFDL-CM3
+    
+- HADGEM2-ES
+
+]
+
+
+&lt;img src="landrisk_files/figure-html/vulnerabilityboxplot-1.png" width="350px" /&gt;
+
+???
+
+Models: less rain in general
+
+* Exposition: 
+  - Precipitation and P(landslides) 
+
+* Sensibility:
+  - Susceptible population
+  - Vegetation status
+
+* Adaptive capacity:
+  - civil protection
+  - tools to respond to landslides
+  
+---
+
+### Vulnerability indexes
+
+.pull-left[
+
+Actual Model
+
+&lt;img src="landrisk_files/figure-html/vactual-1.png" width="60%" /&gt;
+
+CNRMC-M5
+
+&lt;img src="landrisk_files/figure-html/cnrmc-1.png" width="60%" /&gt;
+
+]
+
+.pull-right[
+
+GFDL-CM3
+
+&lt;img src="landrisk_files/figure-html/cm3-1.png" width="60%" /&gt;
+
+HADGEM2-ES
+
+&lt;img src="landrisk_files/figure-html/hadg-1.png" width="60%" /&gt;
+]
+
+---
+
+### Covariates exploration
+
+.center[
+
+![](landrisk_files/figure-html/boxplots-1.png)&lt;!-- --&gt;
+]
+
+???
+
+* Hectares of agriculture, livestock, or forestry activity.
+
+* Hectares of rainfed plots.
+
+* Commercial and industial  units.
+
+* Hectares of private lands within the municipality.
+
+
+**All where standardized by calculating the percentage**
+
+---
+
+
+
+
+### Spatial autocorrelation
+
+
+```r
+*w_vul2 &lt;- spdep::poly2nb(pl = shp_vmun_sp, queen = T)
+
+*w_vul2_lw &lt;- spdep::nb2listw(neighbours = w_vul2, zero.policy = TRUE)
+```
+
+.pull-left[
+
+Actual model
+
+&lt;img src="landrisk_files/figure-html/mploact-1.png" width="50%" /&gt;
+
+CNRMC-M5 model
+
+&lt;img src="landrisk_files/figure-html/mplotcnr-1.png" width="50%" /&gt;
+]
+
+.pull-right[
+
+GFDL-CM3 model
+
+&lt;img src="landrisk_files/figure-html/mplotcm3-1.png" width="50%" /&gt;
+
+HADGEM2-ES model
+
+&lt;img src="landrisk_files/figure-html/mplothadg-1.png" width="50%" /&gt;
+]
+
+---
+
+### Spatial autocorrelation
+
+ Moran's I statistic through Monte-Carlo permutations.
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+&lt;table class=" lightable-minimal" style='font-family: "Trebuchet MS", verdana, sans-serif; margin-left: auto; margin-right: auto;'&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Scenarios &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Statistic &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; P-value &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; Iterations &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Actual &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.4924927 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.001 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; CNRMC-M5 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.4826423 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.001 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; GFDL-CM3 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.4564118 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.001 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; HADGEM2-ES &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.5013297 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.001 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1000 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+### Spatial reggressions
+
+General model:
+
+
+```r
+*slm_vact &lt;- lagsarlm(vul_actual ~ agr_liv + industry + commerce + p_own + r_rain,
+                     data = d_vul,  
+*                    listw = w_vul2_lw,
+                     zero.policy = TRUE) 
+
+slm_vac1 &lt;- update(object = slm_vact, ~ . -agr_liv) # Simplification
+```
+
+Where: 
+
+*vulnerability* = Vulnerability index scores
+
+*agriliv* = (%) Hectares of agricultural, cattle raising, or forestry.
+
+*industry* =(%)  Productive units with main industrial activity
+
+*commerce* =  (%) Productive units with main commercial activity
+
+*p_own* = (%) Hectares of privately own plots
+
+*r_rain* = (%) Hectares of land that are under a rainfed watering regime.
+
+
+???
+
+**Standardization by calculating the percentage of hectares or productive units** 
+
+---
+layout:false
+class: center, middle, inverse
+
+# Results and discussion
+
+---
+layout: true
+background-image: url("concrete-crack-repair.jpg") 
+background-position: -25%
+
+
+
+
+
+
+---
+
+### Model results
+
+&lt;table class="table table-striped lightable-minimal" style='font-size: 13px; margin-left: auto; margin-right: auto; font-family: "Trebuchet MS", verdana, sans-serif; margin-left: auto; margin-right: auto;'&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Term &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Estimate &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; SE &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; t-statistic &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; P-value &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr grouplength="5"&gt;&lt;td colspan="5" style="border-bottom: 1px solid;"&gt;&lt;strong&gt;Actual model&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+   &lt;td style="text-align:left; padding-left:  2em;" indentlevel="1"&gt; rho &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.074 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.075 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.981 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.33 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left; padding-left:  2em;" indentlevel="1"&gt; (Intercept) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.053 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.222 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.241 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.81 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; industry &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; -0.004 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; -2.144 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.032 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; p_own &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.007 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 3.149 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; r_rain &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.003 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.001 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 2.847 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.004 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr grouplength="5"&gt;&lt;td colspan="5" style="border-bottom: 1px solid;"&gt;&lt;strong&gt;CNRMC-M5 model&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+   &lt;td style="text-align:left; padding-left:  2em;" indentlevel="1"&gt; rho &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.073 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.074 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.987 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.32 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left; padding-left:  2em;" indentlevel="1"&gt; (Intercept) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.025 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.217 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.113 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.91 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; industry &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; -0.004 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; -2.213 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.027 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; p_own &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.007 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 3.233 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.001 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; r_rain &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.001 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 2.586 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.01 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr grouplength="5"&gt;&lt;td colspan="5" style="border-bottom: 1px solid;"&gt;&lt;strong&gt;GFDL-CM3 model&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+   &lt;td style="text-align:left; padding-left:  2em;" indentlevel="1"&gt; rho &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.08 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.075 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.064 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.29 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left; padding-left:  2em;" indentlevel="1"&gt; (Intercept) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.043 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.22 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.195 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.85 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; industry &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; -0.004 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; -2.2 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.028 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; p_own &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.006 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 2.976 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.003 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; r_rain &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.001 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 2.354 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.019 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr grouplength="5"&gt;&lt;td colspan="5" style="border-bottom: 1px solid;"&gt;&lt;strong&gt;HADGEM2-ES model&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;
+   &lt;td style="text-align:left; padding-left:  2em;" indentlevel="1"&gt; rho &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.067 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.076 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.887 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.37 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left; padding-left:  2em;" indentlevel="1"&gt; (Intercept) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.062 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.229 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.273 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.78 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; industry &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; -0.004 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; -2.172 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.03 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; p_own &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.007 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 2.947 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.003 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important; padding-left:  2em;" indentlevel="1"&gt; r_rain &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.003 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.001 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 3.158 &lt;/td&gt;
+   &lt;td style="text-align:left;background-color: #fffacd !important;"&gt; 0.002 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+### Model predictions
+
+.center[
+&lt;img src='pred_map.png' width=75% style="float:left; margin: -20px 0px 0px 100px" /&gt;
+]
+---
+
+### Model predictions
+
+.pull-left[
+
+&lt;table class="table table-condensed lightable-minimal" style='font-size: 10px; margin-left: auto; margin-right: auto; font-family: "Trebuchet MS", verdana, sans-serif; margin-left: auto; margin-right: auto;'&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Municipality &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Industry (%) &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Private lands (%) &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Rainfed lands (%) &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Caltepec &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 98 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 96 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Calpan &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.9009009 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 87 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 100 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Atzitzintla &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 10 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 80 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 93 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Atempan &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 4.4444444 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 98 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 100 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Atzala &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 33.3333333 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 87 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 11 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Tianguismanalco &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 87 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 90 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; San Gregorio Atzompa &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 90 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 66 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+]
+
+
+&lt;img src='risk_map.png' width=50% style="float:left; margin: -200px 0px 0px 430px" /&gt;
+
+
+---
+### Conclusions
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+### Industry, and the amount of private and rainfed land are associated with the degree of vulnerability
+
+&lt;br&gt;
+
+### Model predictions do not suggest a clear difference between climate change scenarios.
+
+---
+
+### Limitations
+
+&lt;br&gt;
+
+&lt;br&gt;
+
+* Difference in data temporality.
+
+* Missing values within datasets.
+
+* Same set of covariates.
+
+* Lack of new census data.
+
+  + Newer data has a different spatial resolution.
+  
+* Complexity of vulnerability indexes &lt;sup&gt;[8]&lt;/sup&gt;.
+
+
+---
+class: middle, center
+
+# Thank you
+
+---
+### References
+
+&lt;p style="font-size: 17px;"&gt; [1] Lynn, K., K. MacKendrick, and E.M. Donoghue. 2011. &lt;i&gt;Social vulnerability and climate change: Synthesis of literature&lt;/i&gt;. Gen. Tech. Re p. PNW-GTR-838, U.S. Department of Agriculture, Forest Service, Pacific Northwest Research Station, Portland, OR
+&lt;/p&gt;
+
+&lt;p style="font-size: 17px;"&gt; [2] Prasanna K. K. 2012. Disaster-induced migration: Assessing the impact of extreme weather events on livelihoods. &lt;i&gt;Environmental Hazards&lt;/i&gt;, 11:2, 96-111. DOI: 10.1080/17477891.2011.609879&lt;/p&gt;
+
+&lt;p style="font-size: 17px;"&gt; [3]  Alcántara-Ayala, I. 2020. Integrated landslide disaster risk management (ILDRiM): the challenge to avoid the construction of new di saster risk. &lt;i&gt;Environmental Hazards&lt;/i&gt;. DOI: 10.1080/17477891.2020.1810609&lt;/p&gt;
+
+&lt;p style="font-size: 17px;"&gt; [4] Vallejo-Ramos M., Moreno-Calles A. I., and Casas A. 2016. &lt;i&gt;Journal of Ethnobiology and Ethnomedicine&lt;/i&gt;.12:31. DOI: 10 .1186/s13002-016-0102-2&lt;/p&gt;
+
+&lt;p style="font-size: 17px;" &gt; [5] https://atlasvulnerabilidad.inecc.gob.mx/page/index.html&lt;/p&gt;
+
+&lt;p style="font-size: 17px;" &gt; [6] https://www.inegi.org.mx/programas/cagf/2007/&lt;/p&gt;
+
+&lt;p style="font-size: 17px;" &gt; [7] https://www.inegi.org.mx/temas/mg/&lt;/p&gt;
+
+&lt;p style="font-size: 17px;"&gt; [8] Monterroso, A. &amp; Conde C. 2018. Adaptive capacity: identifying the challenges faced by municipalities addressing climate change in Mexico. &lt;i&gt;Climate and Development&lt;/i&gt;, 10:8, 729-741. DOI: 10.1080/17565529.2017.1372264&lt;/p&gt;
+
+
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
